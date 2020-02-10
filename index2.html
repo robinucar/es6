@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  const id = {
+    firstName: 'Mehmet',
+    lastName: 'Ucar',
+    age: 32,
+    country: 'Kurdistan'
+  }
+
+  /*var firstName = id.firstName;
+  console.log(firstName);
+
+  var lastName = id.lastName;
+  console.log(lastName);
+
+  var age = id.age;
+  console.log(age);
+
+  var country = id.country;
+  console.log(country);*/
+
+  let {firstName, lastName, age, country} = id;
+  console.log(firstName)
+
+
+
+
+  let name = 'Mehmet';
+  let school = {
+    name: 'Speak Up London'
+  }
+  let {name: schoolName} = school;
+
+  console.log(schoolName)
+  </script>
+</body>
+</html>
